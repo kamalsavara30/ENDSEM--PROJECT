@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Git and GitHub Project</title>
+</head>
+<body>
+
+    <h1>Git Repository Project</h1>
+
+    <h2>1. Initialize Repository</h2>
+    <pre>git init</pre>
+
+    <h2>2. Add HTML File</h2>
+    <pre>git add index.html</pre>
+
+    <h2>3. Commit Changes</h2>
+    <pre>git commit -m "First commit"</pre>
+
+    <h2>4. Show Commit History</h2>
+    <pre>git log</pre>
+
+    <h2>5. Undo Commit</h2>
+    <pre>git reset --soft HEAD~1</pre>
+
+    <h2>6. Add Remote Repository</h2>
+    <pre>git remote add origin https://github.com/USERNAME/MyProject.git</pre>
+
+    <h2>7. Check Remote</h2>
+    <pre>git remote -v</pre>
+
+    <h2>8. Push to GitHub</h2>
+    <pre>
+git branch -M main
+git push -u origin main
+    </pre>
+
+    <h2>Result</h2>
+    <p>Git repository created successfully.
+       Commit history displayed and project pushed to GitHub.</p>
+
+</body>
+</html>
+
